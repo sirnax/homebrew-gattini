@@ -1,6 +1,6 @@
 # Gattini Homebrew tap
 
-This tap provides Gattini 0.2.0 for **Apple Silicon macOS**. Gattini is a local command-line client and daemon for durable AI coding jobs. This is a Homebrew **formula**, not a cask or a graphical Mac app.
+This tap provides [Gattini](https://github.com/sirnax/gattini) 0.2.0 for **Apple Silicon macOS**. Gattini is a local command-line client and daemon for durable AI coding jobs. This is a Homebrew **formula**, not a cask or a graphical Mac app.
 
 ## Install
 
@@ -34,4 +34,4 @@ brew untap sirnax/gattini
 
 Uninstalling the formula does **not** delete job history or runtime configuration. Stop a manually started `gattinid` process before uninstalling. Homebrew may retain shared dependencies such as `node@24`.
 
-The release archive and checksum are attached to [v0.2.0](https://github.com/sirnax/homebrew-gattini/releases/tag/v0.2.0). The formula's `brew test` runs an offline fake job in a disposable state directory. macOS Intel and Windows are not supported by this formula; Linux uses a separate package path.
+The release archive and checksum are attached to the [source repository's v0.2.0 release](https://github.com/sirnax/gattini/releases/tag/v0.2.0). The formula's `brew test` runs an offline fake job in a disposable state directory. macOS Intel and Windows are not supported by this formula; Linux uses a separate package path.

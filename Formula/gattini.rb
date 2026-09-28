@@ -4,8 +4,8 @@ require "shellwords"
 
 class Gattini < Formula
   desc "Local-first durable AI coding job broker"
-  homepage "https://github.com/sirnax/homebrew-gattini"
-  url "https://github.com/sirnax/homebrew-gattini/releases/download/v0.2.0/gattini-0.2.0.tgz"
+  homepage "https://github.com/sirnax/gattini"
+  url "https://github.com/sirnax/gattini/releases/download/v0.2.0/gattini-0.2.0.tgz"
   sha256 "97ab34442ff72130333945ff177ff82a82c78a469da050ff1f818d0cc027e06f"
   license "MIT"
 

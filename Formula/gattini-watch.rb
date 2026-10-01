@@ -4,8 +4,8 @@ require "json"
 class GattiniWatch < Formula
   desc "Live local dashboard of Claude Code and Codex agents"
   homepage "https://github.com/sirnax/gattini-watch"
-  url "https://github.com/sirnax/gattini-watch/releases/download/v0.1.0/gattini-watch-0.1.0.tgz"
-  sha256 "837435f54c64d6bb281c7b06f9f17f15f324eee91f1c52fcad68ad20aaa739bf"
+  url "https://github.com/sirnax/gattini-watch/releases/download/v0.1.1/gattini-watch-0.1.1.tgz"
+  sha256 "ce20353566b0a4af65e8e5fc9aad9e26c1ca9e81e25cdad3a616143ca0d3e363"
   license "MIT"
 
   depends_on "node@24"

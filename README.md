@@ -48,12 +48,12 @@ The release archive and checksum are attached to the [source repository's v0.2.0
 
 ## Gattini Watch
 
-[Gattini Watch](https://github.com/sirnax/gattini-watch) 0.1.0 is a live dashboard of
+[Gattini Watch](https://github.com/sirnax/gattini-watch) 0.1.1 is a live dashboard of
 the Claude Code and Codex agents on your machine: sessions, subagents, and the workers
 each tool launches in the other. It works on its own and needs nothing from Gattini.
 
 The formula depends on `node@24` and checks the release archive against SHA-256
-`837435f54c64d6bb281c7b06f9f17f15f324eee91f1c52fcad68ad20aaa739bf`. It only reads the
+`ce20353566b0a4af65e8e5fc9aad9e26c1ca9e81e25cdad3a616143ca0d3e363`. It only reads the
 tools' existing logs, and it listens on your own machine only.
 
 ### Install and start
